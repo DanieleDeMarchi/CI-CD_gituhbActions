@@ -9,6 +9,6 @@ routes.get('/ver', (req, res) => {
     })
 })
 
-
+routes.get('/', StudentController.getAllStudents);
 
 module.exports = routes;
