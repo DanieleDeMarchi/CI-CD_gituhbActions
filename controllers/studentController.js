@@ -13,7 +13,7 @@ class StudentController {
   static getSingleStudent(req, res) {
     const findStudent = students.find(student => student.id === parseInt(req.params.id, 10));
     if (findStudent) {
-      return res.status(201).json({
+      return res.status(200).json({
         student: findStudent,
         message: "A single student record",
       });
