@@ -10,5 +10,6 @@ routes.get('/ver', (req, res) => {
 })
 
 routes.get('/', StudentController.getAllStudents);
+routes.get('/:id', StudentController.getSingleStudent);
 
 module.exports = routes;
