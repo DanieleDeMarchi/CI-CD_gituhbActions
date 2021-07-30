@@ -3,6 +3,6 @@ const students = require ('../dummyDB/students.js');
 
 class StudentController {
 
-  }
+}
 
 module.exports = StudentController
